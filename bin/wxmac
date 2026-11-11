@@ -1,0 +1,4 @@
+#!/bin/sh
+# Run wxmac from a checkout without installing.
+DIR="$(cd "$(dirname "$0")/.." && pwd)"
+PYTHONPATH="$DIR${PYTHONPATH:+:$PYTHONPATH}" exec "${PYTHON:-python3}" -m wxmac "$@"
