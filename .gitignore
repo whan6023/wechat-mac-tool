@@ -1,0 +1,37 @@
+# ---- secrets: never commit ----
+all_keys.json
+*keys*.json
+image_key.bin
+imgkey
+*.key
+*.bin
+*.pem
+.env
+.env.*
+# ---- exported / decrypted data: never commit ----
+export/
+decrypted/
+daily/
+images/
+*-photos/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.dat
+*.wxgf
+*.hevc
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.heic
+qr.tsv
+# ---- python ----
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
